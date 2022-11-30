@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>aesheki</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/f3593bab62/UntitledProject/style.css">
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-info position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner"></div>
+    </div>
+    <!-- Spinner End -->
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark px-5 d-none d-lg-block">
+        <div class="row gx-0">
+            <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>Dar Es Salaam, Tanzania</small>
+                    
+                    <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i><a class="text-light" href="tel:+255 747 195 711">+255 747 195 711</a></small>
+                    <small class="text-light"><i class="fa fa-envelope-open me-2"></i><a class="text-light" href="mailto:business@aesheki.co.tz">business@aesheki.co.tz</a></small>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center text-lg-end">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <a class=" btn btn-sm btn-outline-light btn-sm-square rounded bg-light    text-primary me-3" href="https://twitter.com/aeshekiTech"><i class="fab fa-twitter fw-normal"></i></a>
+                    <a class=" btn btn-sm btn-outline-light btn-sm-square rounded bg-primary  text-white me-3"   href="https://web.facebook.com/aeshekiTechs"><i class="fab fa-facebook-f fw-normal"></i></a>
+                    <a class=" btn btn-sm btn-outline-light btn-sm-square rounded bg-primary  text-light me-3"   href="https://www.linkedin.com/company/aesheki-ict-solutions-system-technologies/?viewAsMember=true"><i class="fab fa-linkedin-in fw-normal"></i></a>
+                    <a class=" btn btn-sm btn-outline-light btn-sm-square rounded bg-danger    text-light me-3"  href="https://www.instagram.com/aeshekitech/"><i class="fab fa-instagram fw-normal"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+    <!-- Navbar & Carousel Start -->
+    <div class="container-fluid position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
+            <a href="index.html" class="navbar-brand p-0">
+                <h1 class="m-0"><i class="icon-AESHEKI"></i>AESHEKI</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="IT Procurement.html" class="nav-item nav-link">IT Procurement</a>
+                    <a href="#" class="nav-item nav-link">IT Resourcing</a>
+                    <a href="#" class="nav-item nav-link">Hosting Solutions</a>
+                    <a href="about.html" class="nav-item nav-link">Company</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact US</a>
+                </div>
+            </div>
+        </nav>
+        <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/carousel-1.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h5 class="text-white text-uppercase mb-3 animated slideInDown">ICT Solutions & System Technologies</h5>
+                            <h1 class="display-0 text-white mb-md-4 animated zoomIn">Your Trusted Partner in Digital Solution</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/carousel-2.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h5 class="text-white text-uppercase mb-3 animated slideInDown">the computing power you need for business growth!</h5>
+                            <h1 class="display-0 text-white mb-md-4 animated zoomIn">ICT products offer</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar & Carousel End -->
+    <!-- Full Screen Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content" style="background: rgba(9, 30, 62, .7);">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center justify-content-center">
+                    <div class="input-group" style="max-width: 600px;">
+                        <input type="text" class="form-control bg-transparent border-primary p-3" placeholder="Type search keyword">
+                        <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Full Screen Search End -->
+    <!-- Features Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <h1 class="mb-0">Services for Your Business</h1>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <div class="row g-5">
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.2s">
+                            <div class="rounded-3 border border-dark d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                                <i class="fa fa-laptop text-dark"></i>
+                            </div>
+                            <h4>IT Services</h4>
+                            <p class="mb-0">Putting your IT environment in the hands of engineers and analysts from AESHEKI is a guarantee of top system performance and availability. 
+                                Outsource your IT systems and services to us to drive business results and reduce operating costs.</p>
+                        </div>
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.6s">
+                            <div class="rounded-3 border border-dark d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                                <i class="fa fa-network-wired"></i>
+                            </div>
+                            <h4>Networking Services</h4>
+                            <p class="mb-0">IT networks management service provides professional IT support to keep your network running at its best.
+                                AESHEKI offers a package of various functionalities in the field of network  managed services and network security according to the needs and requirements of the customer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4  wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s" src="img/feature.jpg" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="row g-5">
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.4s">
+                            <div class="rounded-3 border border-dark d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                                <i class="fa fa-cloud text-info "></i>
+                            </div>
+                            <h4>Cloud Products & Services</h4>
+                            <p class="mb-0">Turn your existing infrastructures into an advanced, cloud-driven environment,
+                                we designed to provide easy, affordable access to applications and resources, without the need for internal infrastructure or hardware.</p>
+                        </div>
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.8s">
+                            <div class="rounded-3 border border-dark d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                                <i class="fa fa-phone-alt text-dark"></i>
+                            </div>
+                            <h4>24/7 Support Service</h4>
+                            <p class="mb-0">Get in touch with our skilled IT specialists using various channels of communication to keep your infrastructure in top condition.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Features Start -->
+    <!-- Service Start -->
+    <div class="container-fluid py-0 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-0">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <h1 class="mb-0">Solutions that can benefit your Business</h1>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                    <div class="service-item border rounded-3 d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon">
+                            <i class="fa fa-laptop-code text-secondary "></i>
+                        </div>
+                        <h4 class="mb-3">Web Solutions</h4>
+                        <p class="m-0">Our web developers are standing by to build your website or update an existing site.</p>
+                         <a class="btn btn-sm border-dark bg-info rounded-3" href="web.html">
+                            see
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                    <div class="service-item border rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon">
+                            <i class="fa fa-desktop text-dark"></i>
+                        </div>
+                        <h4 class="mb-3">Software Solutions</h4>
+                        <p class="m-0">
+                            Work Smarter, grow faster with our software solution strategies.
+                        </p>
+                        <a class="btn btn-sm border-dark bg-info rounded-3" href="software-solutions.html">
+                            see
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+                    <div class="service-item border rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon">
+                            <i class="fa fa-microchip"></i>
+                        </div>
+                        <h4 class="mb-3">IT Infras Solutions</h4>
+                        <p class="m-0">
+                            AESHEKI is capable of providing IT infrastructure solutions 
+                            to your business at door step.
+                        </p>
+                        <a class="btn btn-sm border-dark bg-info rounded-3" href="IT-infra-sloutions.html">
+                            see
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                    <div class="service-item border rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon">
+                            <i class="fa fa-database text-info"></i>
+                        </div>
+                        <h4 class="mb-3">Database Solutions</h4>
+                        <p class="m-0">
+                            We’re Database-Solutions.
+                            We make estimating efficient.
+                        </p>
+                        <a class="btn btn-sm border-dark bg-info rounded-3" href="database-solutions.html">
+                            see
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                    <div class="service-item border rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon">
+                            <i class="fa fa-server text-primary"></i>
+                        </div>
+                        <h4 class="mb-3">Server Solutions</h4>
+                        <p class="m-0">
+                            We provide servers for all purposes, from entry 
+                            level workgroup servers to multiple server installations.
+                        </p>
+                        <a class="btn btn-sm border-dark bg-info rounded-3" href="server-solutions.html">
+                            see
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+                    <div class="service-item border rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon">
+                            <i class="fa fa-cog text-warning"></i>
+                        </div>
+                        <h4 class="mb-3">Deployment Solutions</h4>
+                        <p class="m-0">
+                            Reduce the Cost, Duration, Effort, 
+                            and Risk, We Move and Maintain Your business in Technology.
+                        </p>
+                        <a class="btn btn-sm border-dark bg-info rounded-3" href="deployment.html">
+                            see
+                        </a>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center justify-content-center text-center py-5 mb-0 wow fadeIn" data-wow-delay="0.6s">
+                    <div class="ps-4">
+                        <h4 class="mb-5">We Bring Digital Solution for Your Business</h4>
+                        <h2 class="text-dark mb-0">We're Trusted By</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+    <!-- Vendor Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-0 mb-0">
+            <div class="bg-white">
+                <div class="owl-carousel vendor-carousel">
+                    <img src="img/vendor-1.jpg" alt="">
+                    <img src="img/vendor-2.jpg" alt="">
+                    <img src="img/vendor-3.jpg" alt="">
+                    <img src="img/vendor-4.jpg" alt="">
+                    <img src="img/vendor-5.jpg" alt="">
+                    <img src="img/vendor-6.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Vendor End -->
+    <!-- Footer Start -->
+    <div class="container-fluid bg-danger bg-dark text-light mt-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row gx-5">
+                <div class="col-lg-4 col-md-6 footer-about">
+                    <div class="d-flex flex-column align-items-center justify-content-center text-center h-100  p-4">
+                        <a href="index.html" class="navbar-brand">
+                            <h1 class="m-0 text-white"><i class="fa fa AESHEKI"></i>AESHEKI</h1>
+                        </a>
+                        <p class="mt-3 mb-4"></p>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-6">
+                    <div class="row gx-5">
+                        <div class="col-lg-4 col-md-12 pt-5 mb-5">
+                            <div class="d-flex mb-2">
+                                <i class="bi bi-geo-alt text-primary me-2"></i>
+                                <p class="mb-0">ABSA House, 5th Flr, Ohio Street Dar Es Salaam.</p>
+                            </div>
+                            <div class="d-flex mb-2">
+                                <i class="bi bi-envelope-open text-primary me-2"></i>
+                                <a class="text-light" href="mailto:business@aesheki.co.tz"><p class="mb-0">business@aesheki.co.tz</p></a>
+                            </div>
+                            <div class="d-flex mb-2">
+                                <i class="bi bi-telephone text-primary me-2"></i>
+                                <a class="text-light" href="tel:+255 747 195 711"><p class="mb-0">+255 747 195 711</p></a>
+                            </div>
+                            <div class="d-flex mt-4">
+                                <a class=" btn btn-sm btn-outline-light btn-sm-square rounded bg-light    text-primary me-3" href="https://twitter.com/aeshekiTech"><i class="fab fa-twitter fw-normal"></i></a>
+                    <a class=" btn btn-sm btn-outline-light btn-sm-square rounded bg-primary  text-white me-3"   href="https://web.facebook.com/aeshekiTechs"><i class="fab fa-facebook-f fw-normal"></i></a>
+                    <a class=" btn btn-sm btn-outline-light btn-sm-square rounded bg-primary  text-light me-3"   href="https://www.linkedin.com/company/aesheki-ict-solutions-system-technologies/?viewAsMember=true"><i class="fab fa-linkedin-in fw-normal"></i></a>
+                    <a class=" btn btn-sm btn-outline-light btn-sm-square rounded bg-danger    text-light me-3"  href="https://www.instagram.com/aeshekitech/"><i class="fab fa-instagram fw-normal"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
+                            <div class="link-animated d-flex flex-column justify-content-start">
+                                <a class="text-light mb-2" href="#">IT Procurement</a>
+                                <a class="text-light mb-2" href="#">IT Operational Support</a>
+                                <a class="text-light mb-2" href="#">Business Solution</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
+                            <div class="link-animated d-flex flex-column justify-content-start">
+                                <a class="text-light mb-2" href="#">Our Partners</a>
+                                <a class="text-light mb-2" href="#">Support team</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid text-white" style="background: #061429;">
+        <div class="container text-center">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-lg-8 col-md-6">
+                    <div class="d-flex align-items-center justify-content-center" style="height: 75px;">
+                        <p class="mb-0">2022&copy;<a class="text-white" href="https://aesheki.co.tz/">AESHEKI</a>. All Rights Reserved. 
+						</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg  border-danger btn-lg-square rounded-circle back-to-top"><i class="text-danger bi bi-chevron-up"></i></a>
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
